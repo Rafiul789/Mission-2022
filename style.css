@@ -144,3 +144,47 @@ h2 {
 .web-description {
     padding-left: 50px;
 }
+
+
+/*programming-hero community section */
+
+.about-programming-hero {
+    display: flex;
+    width: 100%;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.about-programming-hero img {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.programming-hero {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    margin-top: 50px;
+}
+
+#email {
+    margin: 10px 10px;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+#submit {
+    margin: 10px 10px;
+    padding: 5px 10px;
+    background: linear-gradient(rgb(228, 39, 6), rgb(14, 13, 13));
+    color: white;
+    border-radius: 10%;
+}
