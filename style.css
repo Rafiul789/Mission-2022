@@ -61,13 +61,11 @@ h2 {
 
 .mission-section {
     display: flex;
-    justify-content: center;
     width: 100%;
+    justify-content: normal;
 }
 
 #mission {
-    align-items: center;
-    justify-content: center;
     text-align: center;
     display: block;
     box-sizing: border-box;
@@ -75,13 +73,12 @@ h2 {
     border-radius: 5%;
     border-image: linear-gradient(cyan, gray);
     padding: 20px 20px;
-    margin: 30px 30px;
+    margin: 30px 40px;
     box-shadow: 10px 5px 5px rgb(221, 213, 213);
+    width: 100%;
 }
 
 #vission {
-    align-items: center;
-    justify-content: center;
     text-align: center;
     display: block;
     box-sizing: border-box;
@@ -91,11 +88,10 @@ h2 {
     padding: 20px 20px;
     margin: 30px 30px;
     box-shadow: 10px 5px 5px rgb(216, 203, 203);
+    width: 100%;
 }
 
 #goals {
-    align-items: center;
-    justify-content: center;
     text-align: center;
     display: block;
     box-sizing: border-box;
@@ -105,11 +101,12 @@ h2 {
     padding: 20px 20px;
     margin: 30px 30px;
     box-shadow: 10px 5px 5px rgb(212, 196, 196);
+    width: 100%;
 }
 
 .element-size {
-    align-items: center;
     justify-content: flex;
+    align-items: center;
 }
 
 .mission-section img {
@@ -129,11 +126,12 @@ h2 {
 
 .web-development {
     display: flex;
+    justify-content: normal;
     width: 100%;
+    margin: 50px 50px;
     background-image: url(images/shapes/shape-12.png);
     background-position: left;
     background-repeat: no-repeat;
-    margin: 50px 50px;
 }
 
 .web-development img {
@@ -168,10 +166,12 @@ h2 {
     padding-left: 50px;
 }
 
+
+/*sign-up section*/
+
 .sign-up {
     display: flex;
     align-items: center;
-    background-color: gray;
     margin-top: 50px;
 }
 
@@ -187,4 +187,10 @@ h2 {
     background: linear-gradient(rgb(228, 39, 6), rgb(14, 13, 13));
     color: white;
     border-radius: 10%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
