@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+    line-height: .7em;
+}
+
+#heading {
+    border-left: 2px solid tomato;
+    border-left-width: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.tomato-color {
+    color: tomato;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-width {
+    width: 100%;
+    padding: 50px;
+}
+
+.explore-button {
+    text-decoration: none;
+    background: linear-gradient(black, gray);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.div-space {
+    width: 50%;
+}
+
+img {
+    width: 80%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.mission-section {
+    display: flex;
+}
+
+#mission {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
