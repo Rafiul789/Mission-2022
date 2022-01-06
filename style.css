@@ -5,6 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/*header section */
+
 h1 {
     font-size: 60px;
     padding-bottom: 10px;
@@ -31,7 +34,7 @@ h1 {
     padding: 50px;
 }
 
-.explore-button {
+.go-button {
     text-decoration: none;
     background: linear-gradient(black, gray);
     color: white;
@@ -44,7 +47,7 @@ h1 {
     width: 50%;
 }
 
-img {
+.div-space img {
     width: 80%;
 }
 
@@ -53,13 +56,91 @@ h2 {
     text-align: center;
 }
 
+
+/*mission section*/
+
 .mission-section {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #mission {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 10px;
+    display: block;
+    box-sizing: border-box;
+    background-color: cyan;
+    border-radius: 5%;
+    border-image: linear-gradient(cyan, gray);
+    padding: 20px 20px;
+    margin: 30px 30px;
+    box-shadow: 10px 5px 5px rgb(221, 213, 213);
+}
+
+#vission {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    background-color: teal;
+    border-radius: 5%;
+    border-image: linear-gradient(teal, gray);
+    padding: 20px 20px;
+    margin: 30px 30px;
+    box-shadow: 10px 5px 5px rgb(216, 203, 203);
+}
+
+#goals {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    background-color: bisque;
+    border-radius: 5%;
+    border-image: linear-gradient(bisque, black);
+    padding: 20px 20px;
+    margin: 30px 30px;
+    box-shadow: 10px 5px 5px rgb(212, 196, 196);
+}
+
+.element-size {
+    align-items: center;
+    justify-content: flex;
+}
+
+.mission-section img {
+    width: 70%;
+}
+
+.mission-section h1 {
+    font-size: 20px;
+}
+
+.mission-section p {
+    align-items: center;
+}
+
+
+/*Web-development section*/
+
+.web-development {
+    display: flex;
+    width: 100%;
+    background-image: url(images/shapes/shape-12.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 50px 50px;
+}
+
+.web-development img {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.web-description {
+    padding-left: 50px;
 }
